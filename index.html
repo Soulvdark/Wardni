@@ -12,13 +12,17 @@
 			href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
 			rel="stylesheet"
 		/>
-		<base target="_blank">
 	</head>
 	<body>
 		<header class="header">
 			<div class="logo">
-				<a href="https://youtu.be/vuyB96oYkDY"  class="meme">
-									<img src="images/header__2.png" alt="" href="#" class="logo__wardni" />
+				<a href="https://youtu.be/vuyB96oYkDY" target="_blank" class="meme">
+					<img
+						src="images/header__2.png"
+						alt=""
+						href="#"
+						class="logo__wardni"
+					/>
 				</a>
 
 				<h3 class="logo__text">Wardni</h3>
@@ -34,18 +38,23 @@
 			<nav class="icons">
 				<ul class="icons__list">
 					<li class="icons__li">
-						<a href="https://twitter.com/NOOBIX_KU" class="icon">
+						<a
+							href="https://twitter.com/NOOBIX_KU"
+							target="_blank"
+							class="icon"
+						>
 							<img src="images/x_tw.png" alt="" class="icon__img twitter" />
 						</a>
 					</li>
 					<li class="icons__li">
-						<a href="https://discord.gg/fbHuXNtjN8" class="icon"
+						<a href="https://discord.gg/fbHuXNtjN8" target="_blank" class="icon"
 							><img src="images/discord.png" alt="" class="icon__img"
 						/></a>
 					</li>
 					<li class="icons__li">
 						<a
 							href="https://mcmodels.net/vendors/136/wardnis-store"
+							target="_blank"
 							class="icon"
 							><img src="images/mc.png" alt="" class="icon__img"
 						/></a>
@@ -73,137 +82,18 @@
 				<div class="photos__grid-all">
 					<h2 class="photo-title">Small</h2>
 					<div class="photo__grid-small grid">
-						<div class="img__animation">
-							<img src="images/grem.png" alt="" class="portfolio__photos" />
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img src="images/flash.png" alt="" class="portfolio__photos" />
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img src="images/huggy.png" alt="" class="portfolio__photos" />
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img
-								src="images/book__men.png"
-								alt=""
-								class="portfolio__photos"
-							/>
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img
-								src="images/boxy__boo.png"
-								alt=""
-								class="portfolio__photos"
-							/>
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img src="images/drone.png" alt="" class="portfolio__photos" />
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img src="images/cat.png" alt="" class="portfolio__photos" />
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img src="images/magnum.png" alt="" class="portfolio__photos" />
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img src="images/radion.png" alt="" class="portfolio__photos" />
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img src="images/egg.png" alt="" class="portfolio__photos" />
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img
-								src="images/info__board.png"
-								alt=""
-								class="portfolio__photos"
-							/>
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img src="images/boxs.png" alt="" class="portfolio__photos" />
-							<div class="img__animation-block"></div>
-						</div>
+						<template id="card-template">
+							<div class="img__animation card">
+								<img src="" alt="" class="portfolio__photos" />
+								<div class="img__animation-block"></div>
+								<img src="" alt="" class="img__used" />
+							</div>
+						</template>
 					</div>
 					<h2 class="photo-title">Medium</h2>
-					<div class="photo__grid-medium grid">
-						<div class="img__animation">
-							<img src="images/pos.png" alt="" class="portfolio__photos" />
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img src="images/knight.png" alt="" class="portfolio__photos" />
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img src="images/lizard.png" alt="" class="portfolio__photos" />
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img src="images/stalker.png" alt="" class="portfolio__photos" />
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img
-								src="images/be__drone.png"
-								alt=""
-								class="portfolio__photos"
-							/>
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img
-								src="images/farmer__drone.png"
-								alt=""
-								class="portfolio__photos"
-							/>
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img
-								src="images/drone__kills.png"
-								alt=""
-								class="portfolio__photos"
-							/>
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img
-								src="images/cinema__man.png"
-								alt=""
-								class="portfolio__photos"
-							/>
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img src="images/modest.png" alt="" class="portfolio__photos" />
-							<div class="img__animation-block"></div>
-						</div>
-					</div>
+					<div class="photo__grid-medium grid"></div>
 					<h2 class="photo-title">Big</h2>
-					<div class="photo__grid-big grid">
-						<div class="img__animation">
-							<img src="images/card.png" alt="" class="portfolio__photos" />
-							<div class="img__animation-block"></div>
-						</div>
-						<div class="img__animation">
-							<img
-								src="images/ice__wroom.png"
-								alt=""
-								class="portfolio__photos"
-							/>
-							<div class="img__animation-block"></div>
-						</div>
-					</div>
+					<div class="photo__grid-big grid"></div>
 				</div>
 			</section>
 			<section id="categories" class="categories">
@@ -216,7 +106,7 @@
 							alt=""
 							class="categories__small-img categories__img-animation"
 						/>
-						<p  class="categories__price"> The price is negotiable </->
+						<p class="categories__price">The price is negotiable</p>
 						<h3 class="price__animation">+ Animation comes at an extra cost</h3>
 					</div>
 					<div class="categories__medium block">
@@ -226,7 +116,7 @@
 							alt=""
 							class="categories__medium-img categories__img-animation"
 						/>
-						<p  class="categories__price">The price is negotiable</p>
+						<p class="categories__price">The price is negotiable</p>
 						<h3 class="price__animation">+ Animation comes at an extra cost</h3>
 					</div>
 					<div class="categories__big block">
@@ -236,7 +126,7 @@
 							alt=""
 							class="categories__big-img categories__img-animation"
 						/>
-						<p  class="categories__price"> The price is negotiable </p>
+						<p class="categories__price">The price is negotiable</p>
 						<h3 class="price__animation">+ Animation comes at an extra cost</h3>
 					</div>
 				</div>
@@ -247,7 +137,11 @@
 					<a href="https://twitter.com/NOOBIX_KU" class="contact__link">
 						<img src="images/x_tw.png" alt="" class="contancts__icon twit"
 					/></a>
-					<a href="https://discord.gg/fbHuXNtjN8" class="contacts__link">
+					<a
+						href="https://discord.gg/fbHuXNtjN8"
+						target="_blank"
+						class="contacts__link"
+					>
 						<img
 							src="images/discord.png"
 							alt=""
@@ -255,6 +149,7 @@
 					/></a>
 					<a
 						href="https://mcmodels.net/vendors/136/wardnis-store"
+						target="_blank"
 						class="contacts__link"
 					>
 						<!-- <img src="images/mc__dark.png" alt="" class="contancts__icon mc"
@@ -265,6 +160,7 @@
 					> -->
 						<img
 							src="images/instagram.png"
+							target="_blank"
 							alt=""
 							class="contancts__icon instagram"
 					/></a>
@@ -277,29 +173,25 @@
 				Copyright ©2024; Designed by <span class="footer__name">DLESTEN</span>
 			</h3>
 		</footer>
-		<div class="popup">
-			<div class="popup__dark">
-				<div class="popup__img-full">
-					<img
-						src="/images/grem.png"
-						alt=""
-						class="popup__img__full-screenshot"
-					/>
-					<div class="popup__group">
-						<img
-							src="/images/grem__stay.png"
-							alt=""
-							class="popup__full-screenshot__usage"
-						/>
-						<h3 class="popup__img-full__text">
-							Domovoy - is a simple little model. Used in the season
-						</h3>
-					</div>
-					<img src="/images/close-page.png" alt="" class="close__popup" />
+		<div class="popup popup_is-animated">
+			<div class="popup__img-full">
+				<img src="" alt="" class="popup__img__full-screenshot" />
+				<div class="popup__group">
+					<img src="" alt="" class="popup__full-screenshot__usage" />
+					<h3 class="popup__img-full__text">
+						Hello, my name is Wardni, I am from Ukraine. I am a modeler
+						inlockBench program with two years of experience. During my career,
+						I have actively developed my skills and participated in 3D modeling
+						competitions. For example, I took third place on the HYTOPIA
+						creators server. My models have also been used on Minecraft servers
+						and have been in the season of the popular youtuber
+					</h3>
 				</div>
+
+				<img src="/images/close-page.png" alt="" class="close__popup" />
 			</div>
 		</div>
-
-		<script src="/scripts/main.js"></script>
+		<script src="scripts/card.js"></script>
+		<script src="scripts/main.js"></script>
 	</body>
 </html>
