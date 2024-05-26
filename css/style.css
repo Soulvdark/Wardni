@@ -876,14 +876,22 @@ a {
 	.none {
 		display: none;
 	}
+	.popup__img-full {
+		align-items: center;
+	}
+	.popup__group {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 	.popup__img__full-screenshot {
-		max-width: 200px;
-		max-height: 200px;
-		margin-right: 25px;
+		max-width: 100px;
+		max-height: 100px;
+		margin-right: 15px;
 	}
 	.popup__img-full__text {
-		font-size: 8px;
-		line-height: 13px;
+		font-size: 7px;
+		line-height: 11px;
 	}
 	.popup__full-screenshot__usage {
 		max-width: 100%;
@@ -893,5 +901,6 @@ a {
 		width: 32px;
 		height: 32px;
 		right: -40px;
+		top: 310px;
 	}
 }
