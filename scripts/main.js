@@ -16,9 +16,7 @@ const popupImageOpenedPicture = popupImage.querySelector(
 const popupImageUsed = popupImage.querySelector(
 	'.popup__full-screenshot__usage'
 );
-const popupImageGif = popupImage.querySelector(
-	'.popup__full-screenshot__gif'
-);
+const popupImageGif = popupImage.querySelector('.popup__full-screenshot__gif');
 const popupImageOpenedText = popupImage.querySelector('.popup__img-full__text');
 
 function addCard(link, use, gif) {
